@@ -8,7 +8,7 @@ var config = require('./config'); //
 
 //Assign PORT
 //============================================
-var PORT = process.env.NODE_ENV || 3000;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 //Set up Express App to handle data parsing
